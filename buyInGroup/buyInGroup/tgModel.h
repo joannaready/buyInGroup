@@ -16,6 +16,6 @@
 @property(nonatomic,strong) NSString *buyCount;
 
 
-+(instancetype)goodsWithDic:(NSDictionary *)dict;
++(instancetype)goodsWithDict:(NSDictionary *)dict;
 -(instancetype)initWithDict:(NSDictionary *)dict;
 @end

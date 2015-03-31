@@ -10,7 +10,7 @@
 
 @implementation tgModel
 
-+(instancetype)goodsWithDic:(NSDictionary *)dict{
++(instancetype)goodsWithDict:(NSDictionary *)dict{
    return [[self alloc] initWithDict:dict];
 }
 -(instancetype)initWithDict:(NSDictionary *)dict{
